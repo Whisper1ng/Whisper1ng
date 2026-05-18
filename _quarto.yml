@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "LXL"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 关于我
+      - href: game.qmd
+        text: 游戏
+      - href: Animation&Comic.qmd
+        text: 动漫
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+
